@@ -1,0 +1,27 @@
+#include<iostream>
+#include<string>
+using  namespace std;
+int fact1(int n)
+{
+    
+ long double fact=1;
+ 
+ for(i=n;i>1;i--)
+ {
+     
+     
+     fact=fact*i;
+ }
+ return fact;
+}
+int main()
+{
+    int num;
+    cout<<"enter the value of nbr"<<endl;
+    cin>>num;
+    long double fat1=fact1(num);
+    cout<<"the factoral is:"<<fat1<<endl;
+    return 0;
+    
+    
+}
